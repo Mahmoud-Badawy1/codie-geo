@@ -1,0 +1,22 @@
+{
+  "name": "codie-geo",
+  "version": "2.0.0",
+  "type": "cross-platform-ai-agent-skill",
+  "merged_components": [
+    "Original GEO SEO specialist audit tools (retrieved at first install)",
+    "Codie GEO trend research and article workflows",
+    "Storytelling copywriting and design keyword research",
+    "Five native social channel workflows",
+    "Evidence-based optimization planning and reports"
+  ],
+  "requires_upstream_install": true,
+  "upstream_pinned_commit": "989cae01e8ebbc42a9ec798eb9e7cb423f5ec89c",
+  "slash_command": "/codie-geo",
+  "default_social_channels": [
+    "instagram",
+    "linkedin",
+    "x",
+    "reddit",
+    "facebook"
+  ]
+}

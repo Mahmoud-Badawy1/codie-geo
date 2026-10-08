@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "project_id": null,
+  "topic_id": null,
+  "source_article": null,
+  "generated_at": null,
+  "languages": [],
+  "requested_channels": ["instagram", "linkedin", "x", "reddit", "facebook"],
+  "outputs": {
+    "instagram": {"path": null, "caption": null, "hashtags": [], "visual_concept": null},
+    "linkedin": {"path": null, "copy": null, "hashtags": [], "visual_concept": null},
+    "x": {"path": null, "copy": null, "hashtags": [], "thread": []},
+    "reddit": {"path": null, "title": null, "body": null, "hashtags_in_post": [], "off_reddit_topic_tags": [], "community_rules_checked": false},
+    "facebook": {"path": null, "copy": null, "hashtags": [], "visual_concept": null}
+  },
+  "sources": [],
+  "qa_status": "DRAFT_READY_FOR_QA",
+  "published": false
+}

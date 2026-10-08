@@ -1,0 +1,3 @@
+# Codie GEO
+
+When the user invokes `/codie-geo` or asks to use Codie GEO, follow `codie-geo/SKILL.md`. For full audits use original components in `codie-geo/vendor/geo-seo-core`; bootstrap on first use if authorized. Supports any industry; one profile per project. Follow the audit → research → plan → writing → social → QA pipeline and all approval gates.

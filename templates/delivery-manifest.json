@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "project_id": null,
+  "content_id": null,
+  "research": {
+    "status": "NOT_STARTED",
+    "file": null,
+    "verified_remote_url": null
+  },
+  "content": {
+    "status": "NOT_STARTED",
+    "files": [],
+    "languages": [],
+    "cms_fields": {}
+  },
+  "assets": [],
+  "references": [],
+  "qa": {
+    "status": "NOT_STARTED",
+    "checked_at": null,
+    "issues": [],
+    "fixes": []
+  },
+  "approval": {
+    "research_approved": false,
+    "publishing_approved": false
+  },
+  "published_url": null,
+  "remote_sync_verified": false,
+  "social_package": {
+    "requested_channels": [
+      "instagram",
+      "linkedin",
+      "x",
+      "reddit",
+      "facebook"
+    ],
+    "social_manifest_path": null,
+    "platform_copy_and_hashtags_verified": false
+  }
+}

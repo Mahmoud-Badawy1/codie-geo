@@ -1,0 +1,77 @@
+# Fictional, non-Codie example showing portability. NOT an active project.
+schema_version: 1
+project_id: "sample-garden-studio"
+project_name: "Sample Garden Studio"
+project_slug: "sample-garden-studio"
+website_urls: ["https://example.com"]
+industry_or_topics: ["indoor gardening", "houseplant care"]
+what_we_offer: "Beginner plant-care courses and educational articles"
+public_product_docs: []
+brand:
+  voice: "Practical, friendly and evidence-led"
+  examples: []
+  avoid: ["Fear-based claims", "Miracle growth promises"]
+  factual_constraints: []
+audience:
+  who: "Apartment residents learning houseplant care"
+  regions: ["United Kingdom"]
+  languages: ["en-GB"]
+  pains_or_questions: ["Low-light plants", "Watering mistakes"]
+  intent_stage: "information seeking"
+objectives:
+  primary_goal: "Email newsletter subscriptions"
+  conversion_action: "Subscribe to the plant-care checklist"
+  performance_metrics: ["organic clicks", "newsletter subscriptions"]
+content:
+  channels: ["blog"]
+  formats: ["markdown"]
+  languages: ["en-GB"]
+  cadence: "weekly"
+  target_length: "1000-1500 words, when supported by the material"
+  editorial_rules: []
+research:
+  focus_topics: ["indoor plants"]
+  exclude_topics: ["pesticide product endorsements"]
+  novelty_preference: "evergreen"
+  search_market: "UK"
+  competitors: []
+  preferred_authoritative_sources: ["RHS", "University extension services"]
+  existing_content_index: null
+  use_seo: true
+  use_aeo: true
+  use_geo: true
+visuals:
+  policy: "no_images"
+  brand_assets_path: null
+storage:
+  mode: "local"
+  root: "./content-workspace"
+  organization: "date"
+  existing_research_sheet_name: null
+  require_sheet: false
+  images_folder: "images"
+approval:
+  research_to_content: true
+  content_to_publish: true
+  compliance_signoff: false
+publishing:
+  destination: null
+  auto_publish: false
+scheduler:
+  enabled: false
+  timezone: "Europe/London"
+  trigger: null
+metadata:
+  created_on: "2026-10-08"
+  last_updated_on: "2026-10-08"
+  onboarding_completed: true
+  provisional_settings: []
+
+# The profile below can omit social entirely; default means all five platforms.
+social:
+  default_channels: [instagram, linkedin, x, reddit, facebook]
+  explicit_channel_override: false
+  include_hashtag_suggestions: true
+  reddit_hashtags_in_body: false
+  include_visual_concepts: true
+  adapt_posts_from_article: true

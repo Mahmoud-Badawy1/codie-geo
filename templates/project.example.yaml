@@ -1,0 +1,83 @@
+# Copy to content-workspace/project.yaml. Replace nulls with verified answers.
+# No API keys or authentication secrets here.
+schema_version: 1
+project_id: null                  # stable unique identifier, e.g. "acme-learning"
+project_name: null                # required before multi-run persistence
+project_slug: null
+website_urls: []
+industry_or_topics: []
+what_we_offer: null
+public_product_docs: []
+brand:
+  voice: null
+  examples: []
+  avoid: []
+  factual_constraints: []
+audience:
+  who: null
+  regions: []
+  languages: []                   # e.g. ["en"], ["en", "ar"]
+  pains_or_questions: []
+  intent_stage: null
+objectives:
+  primary_goal: null             # e.g. qualified leads, product education
+  conversion_action: null
+  performance_metrics: []
+content:
+  channels: []                   # output formats/primary venues; [] means infer article for create when relevant
+  formats: []                    # e.g. ["html", "markdown"]
+  languages: []                  # don't assume bilingual
+  cadence: null                  # e.g. daily, weekly, on-demand
+  target_length: null
+  editorial_rules: []
+  copywriting_style: "grounded_storytelling" # uses editorial/copywriting.md
+  avoid_arabic_tatweel: true      # never insert U+0640 in published copy
+  avoid_decorative_dash_runs: true
+  story_evidence_paths: []        # user-provided real stories/examples, never invent
+social:
+  default_channels: ["instagram", "linkedin", "x", "reddit", "facebook"]
+  explicit_channel_override: false   # true only when user selected a saved subset
+  channel_handles: {}            # optional, do not store passwords
+  content_mix: "native_educational"
+  include_hashtag_suggestions: true
+  reddit_hashtags_in_body: false # keep Reddit natural; separate optional topic tags
+  include_visual_concepts: true
+  include_alternate_hooks: true
+  adapt_posts_from_article: true
+research:
+  focus_topics: []
+  exclude_topics: []
+  novelty_preference: "balanced" # fresh-news | evergreen | balanced
+  search_market: null
+  competitors: []
+  preferred_authoritative_sources: []
+  existing_content_index: null
+  use_seo: true                 # disable for non-search channels as desired
+  use_aeo: true
+  use_geo: true
+visuals:
+  policy: "ask"                # ask | no_images | original | licensed_only | user_supplied
+  brand_assets_path: null
+storage:
+  mode: "local"                # local | google_drive | notion_or_other | chat_only
+  root: null                    # local path or approved Drive folder URL/ID
+  organization: "date"         # existing | date | week_day | flat
+  existing_research_sheet_name: null
+  require_sheet: false
+  images_folder: "images"
+approval:
+  research_to_content: true
+  content_to_publish: true
+  compliance_signoff: false
+publishing:
+  destination: null
+  auto_publish: false
+scheduler:
+  enabled: false
+  timezone: null
+  trigger: null
+metadata:
+  created_on: null
+  last_updated_on: null
+  onboarding_completed: false
+  provisional_settings: []
