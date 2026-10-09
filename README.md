@@ -29,9 +29,8 @@ QC Guard helps founders, developers, and engineering teams maintain confidence i
 Together, they support two essential parts of building a successful digital product: reaching your audience and maintaining confidence in what you deliver.
 
 👉 **[Explore QC Guard](https://codiemarket.com/qc-guard/)** | **[Discover Codie Market](https://codiemarket.com/)**
-```
+
 *Built by [Codie Market](https://codiemarket.com/), a marketplace for ready-made full-stack applications, source-code solutions, and software customization.*
-```
 
 
 ## Start with one command
