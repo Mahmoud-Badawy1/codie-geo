@@ -1,8 +1,38 @@
 # Codie GEO
+**An open-source project by [Codie Market](https://codiemarket.com/) · Protect your applications with [QC Guard](https://codiemarket.com/qc-guard/).**
 
 **One agent to understand how your website is discovered, decide what to improve, and turn that strategy into content ready to publish.**
 
 Codie GEO combines a complete SEO and generative-engine optimization (GEO) audit with reporting, a practical improvement plan, fresh-topic research, natural article writing, and social media content. It works for **any brand or project**, not just a specific company. Your first run creates a reusable profile; later runs build on what the agent already learned, when your platform supports saved files.
+
+---
+
+## Built by Codie Market — Go Beyond Visibility
+
+**Getting discovered is only half the journey. Building software you can trust is the other half.**
+
+Codie GEO helps you improve how your website is discovered, understood, and referenced by search engines and AI assistants. But what happens when your application goes live?
+
+That's where **[Codie QC Guard](https://codiemarket.com/qc-guard/)** comes in.
+
+QC Guard helps founders, developers, and engineering teams maintain confidence in their software through:
+
+- 🔍 **GitHub-Connected Quality Reviews** — Review code changes against nine quality areas, including security, architecture, performance, testing, and deployment readiness.
+- 🛡️ **Revision-Specific Evidence** — Understand findings tied to the exact source revision, with clear reporting of limitations and inconclusive results.
+- 📊 **Live Application Monitoring** — Track production errors, affected users, performance, and release health after deployment.
+- 🤖 **AI-Assisted Investigation** — Get explanations and remediation suggestions while retaining full control over code changes, merges, and deployments.
+
+### From Visibility to Software Quality
+
+**Codie GEO helps your website get discovered. QC Guard helps you understand the quality and health of the software behind it.**
+
+Together, they support two essential parts of building a successful digital product: reaching your audience and maintaining confidence in what you deliver.
+
+👉 **[Explore QC Guard](https://codiemarket.com/qc-guard/)** | **[Discover Codie Market](https://codiemarket.com/)**
+```
+*Built by [Codie Market](https://codiemarket.com/), a marketplace for ready-made full-stack applications, source-code solutions, and software customization.*
+```
+
 
 ## Start with one command
 
