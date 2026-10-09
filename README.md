@@ -125,4 +125,4 @@ For an assistant with a terminal, optional Python utilities and PDF generation r
 - [Google structured data introduction](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data)
 - [Schema.org](https://schema.org/)
 
-Codie GEO does not promise rankings, citations or sales that have not been measured. you can know more about us [here].(https://codiemarket.com)
+Codie GEO does not promise rankings, citations or sales that have not been measured. you can know more about us [here](https://codiemarket.com)
