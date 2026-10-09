@@ -27,7 +27,7 @@ class InstallerTests(unittest.TestCase):
             self.assertFalse((base/'vendor/geo-seo-core/assets/banner.svg').exists())
             self.assertTrue((base/'vendor/install-manifest.json').exists())
     def test_selected(self):
-        self.assertTrue(bootstrap.selected('skills/geo-crawlers/SKILL.md'))
+        self.assertTrue(bootstrap.selected('skills/codie-geo-crawlers/SKILL.md'))
         self.assertFalse(bootstrap.selected('assets/banner.svg'))
         self.assertTrue(bootstrap.selected('scripts/webapp/app.py'))
         self.assertFalse(bootstrap.selected('../bad.md'))

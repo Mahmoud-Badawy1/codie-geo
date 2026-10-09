@@ -1,0 +1,4 @@
+requests>=2.32,<3
+beautifulsoup4>=4.12,<5
+reportlab>=4.2,<5
+# Optional for original upstream scripts: pip install -r vendor/geo-seo-core/requirements.txt

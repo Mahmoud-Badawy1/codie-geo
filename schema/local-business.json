@@ -1,0 +1,12 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "REPLACE_WITH_REAL_BUSINESS_NAME",
+  "url": "https://example.com/",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "REPLACE",
+    "addressLocality": "REPLACE",
+    "addressCountry": "REPLACE"
+  }
+}

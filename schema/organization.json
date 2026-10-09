@@ -1,0 +1,7 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "REPLACE_WITH_REAL_ORG_NAME",
+  "url": "https://example.com/",
+  "sameAs": []
+}

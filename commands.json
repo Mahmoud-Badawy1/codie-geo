@@ -1,0 +1,140 @@
+{
+  "name": "codie-geo",
+  "version": "5.0.0",
+  "primary_invocation": "/codie-geo",
+  "default": "all",
+  "notes": "All user-facing paths and local skills use codie-geo; optional original vendor retains MIT provenance paths.",
+  "audit_commands": {
+    "audit": {
+      "local_skill": "skills/codie-geo-audit/SKILL.md",
+      "upstream_skill": "geo-audit",
+      "purpose": "Full website SEO/GEO audit with five specialist analysis roles"
+    },
+    "quick": {
+      "local_skill": "skills/codie-geo-audit/SKILL.md",
+      "upstream_skill": "geo-audit",
+      "purpose": "Rapid, explicitly scoped public GEO/SEO snapshot; untested checks labelled"
+    },
+    "page": {
+      "local_skill": "skills/codie-geo-audit/SKILL.md",
+      "upstream_skill": "geo-audit",
+      "purpose": "Detailed assessment for one page"
+    },
+    "citability": {
+      "local_skill": "skills/codie-geo-citability/SKILL.md",
+      "upstream_skill": "geo-citability",
+      "purpose": "Analyze passages for answer-engine citation readiness"
+    },
+    "crawlers": {
+      "local_skill": "skills/codie-geo-crawlers/SKILL.md",
+      "upstream_skill": "geo-crawlers",
+      "purpose": "Check robots.txt and AI crawler access policies"
+    },
+    "llmstxt": {
+      "local_skill": "skills/codie-geo-llmstxt/SKILL.md",
+      "upstream_skill": "geo-llmstxt",
+      "purpose": "Analyze or draft llms.txt, explaining its optional status"
+    },
+    "brands": {
+      "local_skill": "skills/codie-geo-brand-mentions/SKILL.md",
+      "upstream_skill": "geo-brand-mentions",
+      "purpose": "Investigate public brand/entity mentions with evidence"
+    },
+    "platforms": {
+      "local_skill": "skills/codie-geo-platforms/SKILL.md",
+      "upstream_skill": "geo-platform-optimizer",
+      "purpose": "Per-platform readiness analysis, not invented visibility"
+    },
+    "schema": {
+      "local_skill": "skills/codie-geo-schema/SKILL.md",
+      "upstream_skill": "geo-schema",
+      "purpose": "Inspect and generate relevant schema with validation"
+    },
+    "technical": {
+      "local_skill": "skills/codie-geo-technical/SKILL.md",
+      "upstream_skill": "geo-technical",
+      "purpose": "Inspect technical SEO, crawl/index signals and speed where measured"
+    },
+    "content-audit": {
+      "local_skill": "skills/codie-geo-content-audit/SKILL.md",
+      "upstream_skill": "geo-content",
+      "purpose": "Audit existing content quality, E-E-A-T and usefulness"
+    },
+    "content-quality": {
+      "local_skill": "skills/codie-geo-content-audit/SKILL.md",
+      "upstream_skill": "geo-content",
+      "purpose": "Alias for content-audit, avoiding collision with content creation"
+    },
+    "report": {
+      "local_skill": "skills/codie-geo-report/SKILL.md",
+      "upstream_skill": "geo-report",
+      "purpose": "Compile a clear client-ready evidence-linked audit report"
+    },
+    "report-pdf": {
+      "local_skill": "skills/codie-geo-report-pdf/SKILL.md",
+      "upstream_skill": "geo-report-pdf",
+      "purpose": "Create professional PDF report from measured data and source report"
+    },
+    "compare": {
+      "local_skill": "skills/codie-geo-compare/SKILL.md",
+      "upstream_skill": "geo-compare",
+      "purpose": "Compare dated audits with matched scope"
+    },
+    "proposal": {
+      "local_skill": "skills/codie-geo-proposal/SKILL.md",
+      "upstream_skill": "geo-proposal",
+      "purpose": "Proposal grounded in real audit and agreed scope"
+    },
+    "prospect": {
+      "local_skill": "skills/codie-geo-prospect/SKILL.md",
+      "upstream_skill": "geo-prospect",
+      "purpose": "Optional prospect tracker, explicit user approval"
+    },
+    "content": {
+      "local_skill": "skills/codie-geo-content-audit/SKILL.md",
+      "upstream_skill": "geo-content",
+      "purpose": "Audit existing content quality when URL is provided; without URL write content from a brief"
+    },
+    "update": {
+      "local_skill": "skills/codie-geo-update/SKILL.md",
+      "upstream_skill": "geo-update",
+      "purpose": "Check availability of upstream security/compatibility updates; never overwrite local work silently"
+    }
+  },
+  "workflow_commands": {
+    "install": "bootstrap.py",
+    "setup": "skills/codie-geo-onboarding/SKILL.md",
+    "profile": "skills/codie-geo-onboarding/SKILL.md",
+    "projects": "skills/codie-geo-onboarding/SKILL.md",
+    "switch": "skills/codie-geo-onboarding/SKILL.md",
+    "plan": "skills/codie-geo-plan/SKILL.md",
+    "optimize": "skills/codie-geo-plan/SKILL.md",
+    "research": "skills/codie-geo-research/SKILL.md",
+    "create": "skills/codie-geo-create/SKILL.md",
+    "article": "skills/codie-geo-create/SKILL.md",
+    "write": "skills/codie-geo-create/SKILL.md",
+    "social": "skills/codie-geo-social/SKILL.md",
+    "repurpose": "skills/codie-geo-repurpose/SKILL.md",
+    "instagram": "skills/codie-geo-instagram/SKILL.md",
+    "linkedin": "skills/codie-geo-linkedin/SKILL.md",
+    "x": "skills/codie-geo-x/SKILL.md",
+    "reddit": "skills/codie-geo-reddit/SKILL.md",
+    "facebook": "skills/codie-geo-facebook/SKILL.md",
+    "channels": "skills/codie-geo-social/SKILL.md",
+    "set-channels": "skills/codie-geo-social/SKILL.md",
+    "hooks": "skills/codie-geo-hooks/SKILL.md",
+    "visuals": "skills/codie-geo-visuals/SKILL.md",
+    "copy": "skills/codie-geo-copy/SKILL.md",
+    "qa": "skills/codie-geo-qa/SKILL.md",
+    "all": "skills/codie-geo-all/SKILL.md",
+    "help": "COMMANDS.md",
+    "storage": "skills/codie-geo-storage/SKILL.md"
+  },
+  "aliases_and_collisions": {
+    "/codie-geo content <url>": "skills/codie-geo-content-audit/SKILL.md",
+    "/codie-geo content": "skills/codie-geo-create/SKILL.md",
+    "/codie-geo create": "skills/codie-geo-create/SKILL.md"
+  },
+  "local_specialists": "skills/codie-geo-*/SKILL.md",
+  "optional_original_vendor": "vendor/geo-seo-core; upstream file names retain their original MIT notice"
+}

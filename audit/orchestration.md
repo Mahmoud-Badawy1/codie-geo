@@ -1,30 +1,30 @@
-# Website and brand audit orchestration (upstream-first)
+# Unified audit orchestration
 
-Use the installed original components under `vendor/geo-seo-core/`. When the audit engine is missing, run `python bootstrap.py` automatically if shell access and Internet are available and user authorization covers accessing public source. Otherwise give the user `/codie-geo install` setup directions. Never claim a full website audit ran if the original modules were not available or pages could not be fetched. Ask permission before probing non-public or authenticated resources.
+Start with `orchestrator/SKILL.md`, `skills/codie-geo-audit/SKILL.md`, the five role files in `agents/`, and the individual specialty instructions in `skills/`.
 
-## Source modules and order
+## Five specialists, one report
 
-1. `vendor/geo-seo-core/geo/SKILL.md`: original audit architecture and rubric.
-2. `vendor/geo-seo-core/skills/geo-audit/SKILL.md`: site-wide synthesis, scoring, scope.
-3. Specialist skills: `geo-technical`, `geo-crawlers`, `geo-schema`, `geo-citability`, `geo-content`, `geo-llmstxt`, `geo-brand-mentions`, `geo-platform-optimizer`.
-4. Original agents under `vendor/geo-seo-core/agents/`: use one at a time in a single-agent environment; parallel execution is optional, not required.
-5. `vendor/geo-seo-core/skills/geo-report/SKILL.md` and `geo-report-pdf/SKILL.md`: report workflow; PDF only if rendering support exists.
-6. `geo-compare`, `geo-proposal`, `geo-prospect` optionally when explicitly requested.
+1. **AI Visibility:** citability, crawler policy, optional llms.txt and brand signals.
+2. **Platform Analysis:** ChatGPT, Perplexity and Google AI search readiness; live mentions only where verified.
+3. **Technical SEO:** indexability, sitemap/robots, page metadata and markup, canonical, speed only if measured.
+4. **Content Quality:** E-E-A-T signals, freshness, reader satisfaction, original facts and content gaps.
+5. **Structured Data:** existing JSON-LD, factual correctness, relevant templates and validation plan.
 
-## Audit procedure
+May run in parallel if the host supports truly independent subtasks, otherwise run sequentially.
 
-- Identify project profile, target domain and business model; enumerate representative URLs and capture UTC checked-at timestamp and access limitations.
-- Verify public robots.txt, sitemap.xml, rendered/indexable content, canonical, titles/descriptions, headings, internal links, structured data, page accessibility, Core Web Vitals *only when measurements are actually available*, and content answers. Do not equate HTML inspection with a real browser measurement.
-- Assess citation-ready passages, original research/data, author/entity credibility, contextual backlinks/brand discussion, AI crawler policies. Never infer actual search-engine/LLM inclusion merely from robots permissions or `llms.txt`.
-- Check platform-specific discoverability when a valid public measurement mechanism is accessible; otherwise label visibility **not tested**. Never invent AI mentions, rankings, scores from a provider, or live citations.
-- Generate evidence table per finding: finding ID, URL, observed fact, verified date, verification method, severity, impact, confidence, primary source where applicable, recommended fix.
-- Audit rubric and suggested composite scores are heuristics, not Google's or a model provider's official ranking metrics. Show weights and observed/missing measurement coverage separately. If inaccessible, mark untested rather than zero.
-- Save raw audit JSON, executive summary, evidence-linked markdown/html report, and optional PDF; classify untested controls clearly. Require human review before site changes.
+## Audit sequence
 
-## Outputs
+1. Read saved profile and get the site URL. Scope public pages only. Record current timestamps and URL samples.
+2. Fetch home and crawl sitemap where permitted. Run local `scripts/fetch_page.py` or live host browser tools and collect HTTP/title/headings/structured-data evidence.
+3. Delegate five roles. Each returns finding IDs, observed URLs, source evidence, confidence, issue severity, recommended action, status and testing limits. Use specialist source instructions in `skills/`; if original vendor files are present, read them for detailed added methods.
+4. Use `scripts/score_audit.py` with **25%, 20%, 20%, 15%, 10%, 10%** weighting. If any required score is unmeasured, give an incomplete score instead of inventing values.
+5. Generate a dated Markdown report and optional PDF with `scripts/generate_pdf_report.py`. Give actionable issues by impact and effort; write quick wins and 30/60/90 roadmap.
+6. Feed findings into `planning/optimization.md`, then current topic research, writing, all five social posts and QA. Preserve evidence throughout.
 
-`audits/YYYY-MM-DD/{audit.json,audit.md,report.html,report.pdf (optional),evidence.csv}`. Use the destination and naming conventions from the project profile when they differ. Put severity, confidence, impact and owner in findings. Record source links in the report. A PDF is never mandatory when tools cannot create it.
+## Safety and factual integrity
 
-## Scope boundaries
+Live Core Web Vitals, Search Console traffic, rankings, and actual AI citations cannot be inferred from a single HTML fetch. Record missing observations and use live official tool measurements only when genuinely available. `llms.txt` is optional. No automatic site editing or external posting. Respect crawl restrictions and rate limits.
 
-No invented search-console access, website ownership, competitor traffic, search volume, PageSpeed scores or AI-platform visibility metrics. Do not treat experimental voluntary protocols as universal requirements. Respect site crawl restrictions, rate limits and user access. Never auto-deploy website edits without authorization.
+## Provenance
+
+Local modules and utilities are provided in this package. Original upstream code, if desired, is fetched by `python bootstrap.py` to `vendor/geo-seo-core` and remains MIT-licensed. Do not assert that this optional download already exists.

@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "REPLACE_WITH_REAL_HEADLINE",
+  "url": "https://example.com/article",
+  "author": {
+    "@type": "Person",
+    "name": "REPLACE_WITH_VERIFIED_AUTHOR"
+  },
+  "datePublished": "YYYY-MM-DD"
+}

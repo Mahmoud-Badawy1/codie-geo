@@ -1,22 +1,58 @@
 {
-  "name": "codie-geo",
-  "version": "2.0.0",
-  "type": "cross-platform-ai-agent-skill",
-  "merged_components": [
-    "Original GEO SEO specialist audit tools (retrieved at first install)",
-    "Codie GEO trend research and article workflows",
-    "Storytelling copywriting and design keyword research",
-    "Five native social channel workflows",
-    "Evidence-based optimization planning and reports"
+  "project": "Codie GEO",
+  "version": "5.0.0",
+  "invocation": "/codie-geo",
+  "audit_local_skills": [
+    "codie-geo-audit",
+    "codie-geo-brand-mentions",
+    "codie-geo-citability",
+    "codie-geo-compare",
+    "codie-geo-content-audit",
+    "codie-geo-crawlers",
+    "codie-geo-llmstxt",
+    "codie-geo-platforms",
+    "codie-geo-proposal",
+    "codie-geo-prospect",
+    "codie-geo-report",
+    "codie-geo-report-pdf",
+    "codie-geo-schema",
+    "codie-geo-technical",
+    "codie-geo-update"
   ],
-  "requires_upstream_install": true,
-  "upstream_pinned_commit": "989cae01e8ebbc42a9ec798eb9e7cb423f5ec89c",
-  "slash_command": "/codie-geo",
-  "default_social_channels": [
-    "instagram",
-    "linkedin",
-    "x",
-    "reddit",
-    "facebook"
+  "publishing_local_skills": [
+    "codie-geo-all",
+    "codie-geo-copy",
+    "codie-geo-create",
+    "codie-geo-facebook",
+    "codie-geo-hooks",
+    "codie-geo-instagram",
+    "codie-geo-linkedin",
+    "codie-geo-onboarding",
+    "codie-geo-plan",
+    "codie-geo-qa",
+    "codie-geo-reddit",
+    "codie-geo-repurpose",
+    "codie-geo-research",
+    "codie-geo-social",
+    "codie-geo-storage",
+    "codie-geo-visuals",
+    "codie-geo-x"
+  ],
+  "agent_files": [
+    "codie-geo-ai-visibility.md",
+    "codie-geo-content.md",
+    "codie-geo-platform-analysis.md",
+    "codie-geo-schema.md",
+    "codie-geo-technical.md"
+  ],
+  "all_skills_self_contained": true,
+  "upstream_original_source_embedded": false,
+  "upstream_original_source_optional": "python bootstrap.py",
+  "reference_docs": [
+    "README.md",
+    "EDITORIAL_PLAYBOOK.md",
+    "COMMANDS.md",
+    "QUICKSTART.md",
+    "ARCHITECTURE.md"
   ]
 }
