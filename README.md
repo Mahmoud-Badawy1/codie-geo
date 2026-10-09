@@ -125,4 +125,4 @@ For an assistant with a terminal, optional Python utilities and PDF generation r
 - [Google structured data introduction](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data)
 - [Schema.org](https://schema.org/)
 
-Legal attribution for incorporated MIT-origin components is kept separately in `vendor/UPSTREAM_LICENSE.txt`. The source project remains available at [its repository](https://github.com/zubair-trabzada/geo-seo-claude). Codie GEO does not promise rankings, citations or sales that have not been measured.
+Codie GEO does not promise rankings, citations or sales that have not been measured. you can know more about us here (https://codiemarket.com)
